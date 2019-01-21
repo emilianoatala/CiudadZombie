@@ -1,0 +1,11 @@
+Jugador: avanzar, girar, frenarse.
+
+Autos: avanzar, girar, frenar.
+
+Tren: avanzar.
+
+Zombies, caminar, atacar.
+
+Peaton, caminar, convertirse en zombie.
+
+Vallas: bloquear.

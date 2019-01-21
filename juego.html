@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta charset="UTF-8">
+<link href="https://fonts.googleapis.com/css?family=Roboto+Mono" rel="stylesheet">
+<!-- Incluir los archivos donde este guardado el estilo en formato css -->
+<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.4.1/css/all.css" integrity="sha384-5sAR7xN1Nv6T6+dT2mhtzEpVJvfS3NScPQTrOxhwjIuvcA67KV2R5Jz6kr4abQsz" crossorigin="anonymous">
+<link rel="stylesheet" href="css/juego.css">
+<link rel="stylesheet" href="css/main.css">
+<!-- Incluir los archivos donde este el codigo Javascript del juego -->
+</head>
+<body>
+<header id="cabecera">
+    <h1 id="fecha"></h1>
+    <hr>
+    <h3 id="nombre"></h3>
+    <p id="introduccion"></p>
+
+</header>
+<section>
+    <div id="presentacion">
+        <h2 id="tituloSelector">SELECCIONA UN MEDIO DE ESCAPE</h2>
+        <div id="boxInicial">
+            <div class="boxVehiculo">
+                <div>
+                    <img src="imagenes/tanque.png" alt="" onclick="Ejecutor.cargarBanner(1)">
+                </div>
+                <div>
+                    <p></p>
+                </div>
+            </div>
+            <div class="boxVehiculo">
+                <div>
+                    <img src="imagenes/auto.png" alt="" onclick="Ejecutor.cargarBanner(2)">
+                </div>
+                <div>
+                    <p></p>
+                </div>
+            </div>
+            <div class="boxVehiculo">
+                <div>
+                    <img src="imagenes/moto.png" alt="" onclick="Ejecutor.cargarBanner(3)">
+                </div>
+                <div>
+                    <p></p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div id="banner">
+        <div id="bannerHeader">
+            <div id="cerrar">
+                <i class="far fa-times-circle"></i>
+            </div>
+        </div>
+        <div id="bannerSection">
+            <div>
+                <img id="bannerImg" src="">
+            </div>
+            <div id="boxDescripcion">
+                <h2 id="bannerTitulo">
+                </h2>
+                <p id="bannerDescripcion">
+                </p>  
+                <button id="botonIniciar">
+                    <h4>GO!</h4>
+                </button>
+            </div>
+        </div>  
+    </div> 
+</section>
+<button onClick="window.location.reload()" class="boton-recargar" id="reiniciar">
+    <i class="fas fa-redo-alt"></i>
+    <h5>JUGAR DE NUEVO</h5>
+</button>
+<footer>© Copyright. 2018. By Emiliano Atala. Todos los derechos reservados</footer>
+<script src='js/fecha.js'> </script>
+<script src='js/escritor.js'> </script>
+<script src='js/resources.js'> </script>
+<script src='js/jugador.js'> </script>
+<script src='js/dibujante.js'> </script>
+<script src='js/obstaculo.js'> </script>
+<script src='js/enemigo.js'> </script>
+<script src='js/zombie_caminante.js'></script>
+<script src='js/zombie_conductor.js'></script>
+<script src='js/juego.js'> </script>
+<script src = " https://unpkg.com/sweetalert/dist/sweetalert.min.js "></script>
+<script src='js/main.js'> </script>
+</body>
+</html>

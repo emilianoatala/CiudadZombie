@@ -1,0 +1,140 @@
+section
+    max-height: 480px
+    
+#presentacion
+    margin-left: auto
+    margin-right: auto
+    margin-top: 40px
+    width: 961px
+    height: 430px
+    
+    h2
+        text-align: center
+        font-family: $helvetica
+        margin-top: -10px
+        opacity: 0
+        transition: 2s
+        
+#boxInicial
+    width: 961px
+    height: 165px
+    display: flex
+    flex-direction: row
+    justify-content: space-between
+    opacity: 0
+    transition: 2s
+    
+.boxVehiculo
+    width: 32%
+    box-sizing: border-box
+    background-color: rgba(0,0,0,0.05)
+    border-radius: $redondeado
+    transition: 0.02s
+    div
+        margin: auto
+        margin-top: 0
+        width: 90%
+        height: 40%
+        border-radius: $redondeado $redondeado 0px 0px
+        img
+            width: 100%
+
+.boxVehiculo:hover
+    border: 5px solid $colorBorde
+
+#banner
+    margin-left: auto
+    margin-right: auto
+    margin-top: -400px
+    width: 961px
+    height: 400px
+    position: relative
+    background-color: #fff
+    z-index: 10
+    display: none
+    flex-direction: column
+    box-shadow: 7px 7px 12px -1px rgba(0,0,0,0.22)
+    border-radius: $redondeado
+    font-family: $helvetica
+        
+    
+#bannerHeader
+    width: 100%
+    height: 60px
+    display: flex
+    flex-direction: row-reverse
+    align-items: center
+    
+
+#cerrar
+    width: 50px
+    height: 50px
+    margin-right: -15px
+    margin-top: 15px
+    i
+        width: 100%
+        font-size: 150%
+        color: $color
+        transition: 0.2s
+    i:hover
+        color: $colorCierre
+        cursor: pointer
+
+#bannerSection
+    width: 100%
+    height: 527px
+    display: flex
+    flex-direction: row
+    justify-content: space-around
+    align-items: center
+    div
+        width: 40%
+        display: flex
+        flex-direction: column
+        align-items: center
+        img
+            width: 100%
+
+#botonIniciar
+    background-color: rgba(0,0,0,0)
+    font-family: 
+    width: 30%
+    height: auto
+    border-radius: 60px
+    color: $colorCierre
+    font-size: 14px
+    background-color: $color
+    box-sizing: border-box
+    font-family: $helvetica
+    border: 3px solid $color
+    h4
+        margin: 0
+        padding: 0
+    
+#botonIniciar:hover
+        cursor: pointer
+        background-color: rgba(0,0,0,0) 
+
+#bannerDescripcion
+    text-align: justify
+
+
+footer
+    bottom: 0 
+    position: fixed
+    width: 100%
+    height: 20px
+    display: flex
+    flex-direction: column
+    align-items: center
+    justify-content: center
+    background-color: grey
+    color: #fff
+    font-family: $helvetica
+    font-size: 12px
+
+    
+
+            
+    
+    

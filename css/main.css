@@ -1,0 +1,230 @@
+#cabecera {
+  width: 100%;
+  height: auto;
+  margin: auto;
+  text-align: center;
+}
+
+#cabecera h1 {
+  font-size: 18px;
+  font-family: helvetica;
+  color: rgba(0, 0, 0, 0.7);
+}
+
+#cabecera h3 {
+  font-family: "Roboto Mono", monospace;
+}
+
+#cabecera p {
+  font-family: "Roboto Mono", monospace;
+  width: 370px;
+  margin: auto;
+}
+
+section {
+  max-height: 480px;
+}
+
+#presentacion {
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 40px;
+  width: 961px;
+  height: 430px;
+}
+
+#presentacion h2 {
+  text-align: center;
+  font-family: helvetica;
+  margin-top: -10px;
+  opacity: 0;
+  -webkit-transition: 2s;
+  transition: 2s;
+}
+
+#boxInicial {
+  width: 961px;
+  height: 165px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  opacity: 0;
+  -webkit-transition: 2s;
+  transition: 2s;
+}
+
+.boxVehiculo {
+  width: 32%;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  background-color: rgba(0, 0, 0, 0.05);
+  border-radius: 20px;
+  -webkit-transition: 0.02s;
+  transition: 0.02s;
+}
+
+.boxVehiculo div {
+  margin: auto;
+  margin-top: 0;
+  width: 90%;
+  height: 40%;
+  border-radius: 20px 20px 0px 0px;
+}
+
+.boxVehiculo div img {
+  width: 100%;
+}
+
+.boxVehiculo:hover {
+  border: 5px solid #2980B9;
+}
+
+#banner {
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: -400px;
+  width: 961px;
+  height: 400px;
+  position: relative;
+  background-color: #fff;
+  z-index: 10;
+  display: none;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-shadow: 7px 7px 12px -1px rgba(0, 0, 0, 0.22);
+          box-shadow: 7px 7px 12px -1px rgba(0, 0, 0, 0.22);
+  border-radius: 20px;
+  font-family: helvetica;
+}
+
+#bannerHeader {
+  width: 100%;
+  height: 60px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: reverse;
+      -ms-flex-direction: row-reverse;
+          flex-direction: row-reverse;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+#cerrar {
+  width: 50px;
+  height: 50px;
+  margin-right: -15px;
+  margin-top: 15px;
+}
+
+#cerrar i {
+  width: 100%;
+  font-size: 150%;
+  color: #e0e0e0;
+  -webkit-transition: 0.2s;
+  transition: 0.2s;
+}
+
+#cerrar i:hover {
+  color: #656565;
+  cursor: pointer;
+}
+
+#bannerSection {
+  width: 100%;
+  height: 527px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+#bannerSection div {
+  width: 40%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+#bannerSection div img {
+  width: 100%;
+}
+
+#botonIniciar {
+  background-color: rgba(0, 0, 0, 0);
+  width: 30%;
+  height: auto;
+  border-radius: 60px;
+  color: #656565;
+  font-size: 14px;
+  background-color: #e0e0e0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  font-family: helvetica;
+  border: 3px solid #e0e0e0;
+}
+
+#botonIniciar h4 {
+  margin: 0;
+  padding: 0;
+}
+
+#botonIniciar:hover {
+  cursor: pointer;
+  background-color: rgba(0, 0, 0, 0);
+}
+
+#bannerDescripcion {
+  text-align: justify;
+}
+
+footer {
+  bottom: 0;
+  position: fixed;
+  width: 100%;
+  height: 20px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  background-color: grey;
+  color: #fff;
+  font-family: helvetica;
+  font-size: 12px;
+}
+/*# sourceMappingURL=main.css.map */
